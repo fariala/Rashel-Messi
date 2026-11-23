@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title data-i18n="Wedding invitation | SAS Wedding Studio">Wedding invitation | SAS Wedding Studio</title>
+    <meta name="description" content="You are warmly invited to celebrate our wedding. Open the invitation for the schedule, venue, gallery and RSVP." data-i18n-content="You are warmly invited to celebrate our wedding. Open the invitation for the schedule, venue, gallery and RSVP.">
+    <meta name="theme-color" content="#b76e79">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Wedding invitation" data-i18n-content="Wedding invitation">
+    <meta property="og:description" content="Open the invitation for the schedule, venue, gallery and RSVP." data-i18n-content="Open the invitation for the schedule, venue, gallery and RSVP.">
+    <link rel="icon" type="image/png" sizes="192x192" href="./assets/images/icon-192x192.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Josefin+Sans:wght@300;400;500;600&display=swap">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.1.0/css/all.min.css" integrity="sha256-4rTIfo5GQTi/7UJqoyUJQKzxW8VN/YBH31+Cy+vTZj4=" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/saas.css">
+    <link rel="stylesheet" href="./css/saas-invite.css">
+
+    <script defer src="./dist/saas-invite.js"></script>
+</head>
+
+<body class="invite-body">
+    <div class="invite-language" hidden>
+        <select class="language-switch" data-language-select aria-label="Language" data-i18n-aria-label="Language">
+            <option value="en" lang="en">English</option>
+            <option value="fr" lang="fr">Français</option>
+        </select>
+    </div>
+
+    <div id="invite-root" aria-busy="true">
+        <div class="invite-skeleton" aria-hidden="true">
+            <span style="width:60%"></span>
+            <span style="width:90%"></span>
+            <span style="width:75%"></span>
+            <span style="width:40%"></span>
+        </div>
+    </div>
+
+    <noscript>
+        <div class="invite-state">
+            <h1>Please enable JavaScript</h1>
+            <p>This invitation is interactive. Enable JavaScript in your browser to open it.</p>
+            <div lang="fr">
+                <h2>Veuillez activer JavaScript</h2>
+                <p>Cette invitation est interactive. Activez JavaScript dans votre navigateur pour l’ouvrir.</p>
+            </div>
+        </div>
+    </noscript>
+</body>
+
+</html>

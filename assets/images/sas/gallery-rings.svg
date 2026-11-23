@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-label="Wedding rings illustration">
+    <defs>
+        <linearGradient id="ringBg" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="#2b2431"/>
+            <stop offset="0.6" stop-color="#4c3749"/>
+            <stop offset="1" stop-color="#7c4f5c"/>
+        </linearGradient>
+        <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="#f6e7c3"/>
+            <stop offset="0.5" stop-color="#d3b279"/>
+            <stop offset="1" stop-color="#a5814d"/>
+        </linearGradient>
+        <radialGradient id="halo" cx="0.5" cy="0.5" r="0.5">
+            <stop offset="0" stop-color="#f0d8b0" stop-opacity="0.45"/>
+            <stop offset="1" stop-color="#f0d8b0" stop-opacity="0"/>
+        </radialGradient>
+    </defs>
+
+    <rect width="800" height="800" fill="url(#ringBg)"/>
+    <circle cx="400" cy="380" r="300" fill="url(#halo)"/>
+
+    <g fill="none" stroke="url(#gold)" stroke-width="10">
+        <circle cx="338" cy="420" r="112"/>
+        <circle cx="462" cy="420" r="112"/>
+    </g>
+    <g fill="none" stroke="#f7ecd4" stroke-width="2" opacity="0.55">
+        <circle cx="338" cy="420" r="96"/>
+        <circle cx="462" cy="420" r="96"/>
+    </g>
+
+    <g fill="url(#gold)">
+        <path d="M400 286l12 26 28 4-20 20 5 28-25-14-25 14 5-28-20-20 28-4Z" opacity="0.9"/>
+    </g>
+
+    <g stroke="#e8d3a8" stroke-width="1.5" opacity="0.55">
+        <path d="M180 220l6 14 14 6-14 6-6 14-6-14-14-6 14-6Z"/>
+        <path d="M620 560l5 12 12 5-12 5-5 12-5-12-12-5 12-5Z"/>
+        <path d="M560 180l4 10 10 4-10 4-4 10-4-10-10-4 10-4Z"/>
+    </g>
+    <g fill="none" stroke="#e8d3a8" stroke-width="1" opacity="0.3">
+        <circle cx="400" cy="420" r="238"/>
+        <path d="M120 420h-40M680 420h40"/>
+    </g>
+</svg>

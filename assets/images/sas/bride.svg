@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-label="Rose botanical portrait medallion">
+    <defs>
+        <radialGradient id="bg" cx="0.45" cy="0.35" r="0.8">
+            <stop offset="0" stop-color="#fdf6ee"/>
+            <stop offset="1" stop-color="#f1dedf"/>
+        </radialGradient>
+        <linearGradient id="petal" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="#e8c8cb"/>
+            <stop offset="1" stop-color="#c98d96"/>
+        </linearGradient>
+        <symbol id="leaf" viewBox="-30 -14 60 28">
+            <path d="M-29 0C-14-15 12-17 29 0 12 17-14 15-29 0Z" fill="currentColor"/>
+        </symbol>
+    </defs>
+
+    <rect width="800" height="800" fill="url(#bg)"/>
+    <circle cx="400" cy="400" r="286" fill="#f7e7e5"/>
+    <circle cx="400" cy="400" r="286" fill="none" stroke="#c9a76a" stroke-width="1.4" opacity="0.7"/>
+    <circle cx="400" cy="400" r="252" fill="none" stroke="#c9a76a" stroke-width="0.8" opacity="0.45" stroke-dasharray="2 8"/>
+
+    <g fill="none" stroke="#b96f7c" stroke-width="2" stroke-linecap="round" opacity="0.75">
+        <path d="M400 520C398 450 396 386 404 320"/>
+        <path d="M404 452C360 436 330 402 322 360"/>
+        <path d="M403 400C446 384 474 352 482 312"/>
+        <path d="M402 360C374 344 356 318 352 286"/>
+    </g>
+
+    <g color="#a9747d" opacity="0.55">
+        <use href="#leaf" x="330" y="410" width="86" height="40" transform="rotate(-28 330 410)"/>
+        <use href="#leaf" x="420" y="372" width="92" height="42" transform="rotate(24 420 372)"/>
+        <use href="#leaf" x="366" y="330" width="74" height="34" transform="rotate(-16 366 330)"/>
+    </g>
+
+    <g fill="url(#petal)" opacity="0.9">
+        <path d="M400 236C430 258 442 292 428 322 414 350 386 352 372 324 358 292 370 258 400 236Z"/>
+        <path d="M400 250C420 268 426 294 414 314 402 332 382 332 372 312 360 292 372 268 400 250Z" fill="#f4dfe0" opacity="0.85"/>
+        <path d="M400 264C412 276 416 292 406 304 396 316 384 312 380 300 376 286 384 272 400 264Z" fill="#c98d96" opacity="0.7"/>
+        <path d="M400 278C406 284 408 292 402 298 396 304 388 302 386 296 384 288 390 282 400 278Z" fill="#fdf6ee" opacity="0.8"/>
+    </g>
+
+    <g fill="none" stroke="#c9a76a" stroke-width="1.2" opacity="0.5">
+        <circle cx="400" cy="400" r="196"/>
+        <path d="M232 400h-40M608 400h40"/>
+        <path d="M400 232v-40M400 608v40"/>
+    </g>
+</svg>

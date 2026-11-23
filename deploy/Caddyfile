@@ -1,0 +1,27 @@
+# SAS Wedding Studio - Caddy site definition
+#
+# Caddy obtains and renews HTTPS certificates automatically.
+# 1. Replace invitations.example.com with your domain.
+# 2. sudo cp deploy/Caddyfile /etc/caddy/Caddyfile
+# 3. sudo systemctl reload caddy
+
+invitations.example.com {
+    encode gzip zstd
+
+    request_body {
+        max_size 10MB
+    }
+
+    reverse_proxy 127.0.0.1:3000
+
+    header {
+        -Server
+    }
+
+    log {
+        output file /var/log/caddy/sas-wedding.log {
+            roll_size 10MiB
+            roll_keep 5
+        }
+    }
+}

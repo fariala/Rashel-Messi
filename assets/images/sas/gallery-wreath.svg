@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-label="Botanical wreath illustration">
+    <defs>
+        <radialGradient id="wreathBg" cx="0.5" cy="0.4" r="0.8">
+            <stop offset="0" stop-color="#fdf6f2"/>
+            <stop offset="1" stop-color="#f3dfe0"/>
+        </radialGradient>
+        <symbol id="leaf" viewBox="-30 -14 60 28">
+            <path d="M-29 0C-14-15 12-17 29 0 12 17-14 15-29 0Z" fill="currentColor"/>
+        </symbol>
+        <symbol id="bud" viewBox="-16 -16 32 32">
+            <circle cx="0" cy="0" r="8" fill="currentColor"/>
+            <circle cx="0" cy="0" r="15" fill="currentColor" opacity="0.2"/>
+        </symbol>
+    </defs>
+
+    <rect width="800" height="800" fill="url(#wreathBg)"/>
+    <circle cx="400" cy="400" r="250" fill="none" stroke="#c9a76a" stroke-width="1.2" opacity="0.5"/>
+    <circle cx="400" cy="400" r="212" fill="none" stroke="#c9a76a" stroke-width="0.8" opacity="0.3" stroke-dasharray="2 9"/>
+
+    <g fill="none" stroke="#84927a" stroke-width="2" stroke-linecap="round" opacity="0.85">
+        <path d="M400 150c96 0 176 78 176 174 0 96-78 174-176 174S224 420 224 324c0-96 80-174 176-174Z"/>
+        <path d="M400 196c74 0 134 60 134 134 0 74-60 134-134 134s-134-60-134-134c0-74 60-134 134-134Z"/>
+    </g>
+
+    <g color="#84927a" opacity="0.55">
+        <use href="#leaf" x="236" y="272" width="64" height="30" transform="rotate(-52 236 272)"/>
+        <use href="#leaf" x="286" y="196" width="70" height="32" transform="rotate(-72 286 196)"/>
+        <use href="#leaf" x="360" y="158" width="72" height="32" transform="rotate(-86 360 158)"/>
+        <use href="#leaf" x="440" y="160" width="68" height="30" transform="rotate(84 440 160)"/>
+        <use href="#leaf" x="514" y="206" width="66" height="30" transform="rotate(66 514 206)"/>
+        <use href="#leaf" x="556" y="286" width="64" height="28" transform="rotate(50 556 286)"/>
+    </g>
+
+    <g color="#c98d96">
+        <use href="#bud" x="384" y="292" width="32" height="32" opacity="0.9"/>
+        <use href="#bud" x="442" y="330" width="24" height="24" opacity="0.7"/>
+        <use href="#bud" x="316" y="336" width="22" height="22" opacity="0.65"/>
+        <use href="#bud" x="408" y="440" width="26" height="26" opacity="0.75"/>
+    </g>
+
+    <path d="M400 436c-6-10-24-22-34-10-10 12 0 26 12 34l22 16 22-16c12-8 22-22 12-34-10-12-28 0-34 10Z" fill="none" stroke="#b96f7c" stroke-width="2" opacity="0.7"/>
+
+    <g fill="none" stroke="#c9a76a" stroke-width="1.2" opacity="0.4">
+        <path d="M118 400h-44M682 400h44"/>
+    </g>
+</svg>

@@ -1,0 +1,339 @@
+/* =========================================================
+   SAS Wedding Studio - admin login
+   ========================================================= */
+
+.sas-login {
+    display: flex;
+    min-height: 100vh;
+    background: var(--sas-cream);
+}
+
+.sas-login-art {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 52%;
+    padding: 2.75rem 3rem;
+    color: #fff;
+    background:
+        linear-gradient(150deg, rgba(32, 25, 37, 0.94) 8%, rgba(66, 48, 62, 0.72) 55%, rgba(35, 28, 40, 0.9) 100%),
+        url("../assets/images/sas/cover.svg") center/cover no-repeat;
+    overflow: hidden;
+}
+
+.sas-login-art::before {
+    content: "";
+    position: absolute;
+    right: -14rem;
+    bottom: -14rem;
+    width: 34rem;
+    height: 34rem;
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    border-radius: 50%;
+    box-shadow:
+        0 0 0 3rem rgba(255, 255, 255, 0.03),
+        0 0 0 6rem rgba(255, 255, 255, 0.03);
+    pointer-events: none;
+}
+
+.sas-login-art .sas-brand {
+    position: relative;
+    z-index: 1;
+    padding: 0;
+    color: #fff;
+}
+
+.sas-login-art .sas-brand:hover {
+    color: #fff;
+}
+
+.sas-login-art .sas-brand-sub {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.sas-login-copy {
+    position: relative;
+    z-index: 1;
+    max-width: 30rem;
+    margin: 3rem 0;
+}
+
+.sas-login-copy .sas-eyebrow {
+    color: #e6d3ab;
+    letter-spacing: 0.22em;
+}
+
+.sas-login-copy h1 {
+    margin: 0 0 1rem;
+    font-size: clamp(2.4rem, 3.4vw, 3.5rem);
+    font-weight: 400;
+    line-height: 1.08;
+    color: #fff;
+}
+
+.sas-login-copy h1 em {
+    color: #e9cf9f;
+    font-style: italic;
+}
+
+.sas-login-copy p {
+    margin: 0;
+    max-width: 26rem;
+    font-size: 0.92rem;
+    line-height: 1.75;
+    color: rgba(255, 255, 255, 0.68);
+}
+
+.sas-login-features {
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+    margin: 2rem 0 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sas-login-features li {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.sas-login-features i {
+    display: inline-flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    font-size: 0.75rem;
+    color: #e9cf9f;
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 50%;
+}
+
+.sas-login-foot {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem 1.25rem;
+    font-size: 0.68rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.42);
+}
+
+.sas-login-panel {
+    position: relative;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    padding: 2.5rem 1.5rem;
+    background:
+        radial-gradient(600px 340px at 100% 0%, rgba(194, 162, 107, 0.16), transparent 65%),
+        radial-gradient(520px 320px at 0% 100%, rgba(183, 110, 121, 0.14), transparent 65%),
+        var(--sas-cream);
+}
+
+.sas-login-card {
+    width: min(100%, 25.5rem);
+    padding: 2.25rem;
+    background: rgba(255, 255, 255, 0.9);
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: 26px;
+    box-shadow: 0 40px 80px -50px rgba(44, 37, 48, 0.6);
+    backdrop-filter: blur(6px);
+}
+
+.sas-login-language {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 1rem;
+}
+
+.sas-login-mobile-brand {
+    display: none;
+    align-items: center;
+    gap: 0.65rem;
+    margin-bottom: 1.5rem;
+}
+
+.sas-login-card .sas-eyebrow {
+    margin-bottom: 0.4rem;
+}
+
+.sas-login-card h2 {
+    margin: 0;
+    font-size: 2rem;
+    line-height: 1.1;
+}
+
+.sas-login-card > p {
+    margin: 0.5rem 0 1.6rem;
+    font-size: 0.85rem;
+    line-height: 1.6;
+    color: var(--sas-muted);
+}
+
+.sas-login-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+    margin: 0.25rem 0 1.25rem;
+    font-size: 0.78rem;
+    color: var(--sas-muted);
+}
+
+.sas-login-row .form-check {
+    display: flex;
+    align-items: center;
+    gap: 0.45rem;
+    margin: 0;
+    min-height: 0;
+}
+
+.sas-login-row .form-check-input {
+    margin: 0;
+    border-color: var(--sas-line-strong);
+}
+
+.sas-login-row .form-check-input:checked {
+    background-color: var(--sas-rose);
+    border-color: var(--sas-rose);
+}
+
+.sas-password {
+    position: relative;
+}
+
+.sas-password .sas-input {
+    padding-right: 3rem;
+}
+
+.sas-password-toggle {
+    position: absolute;
+    top: 50%;
+    right: 0.35rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.2rem;
+    height: 2.2rem;
+    color: var(--sas-muted);
+    background: transparent;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transform: translateY(-50%);
+}
+
+.sas-password-toggle:hover {
+    color: var(--sas-ink);
+    background: rgba(44, 37, 48, 0.06);
+}
+
+
+.sas-login-error {
+    display: none;
+    align-items: flex-start;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+    padding: 0.7rem 0.85rem;
+    font-size: 0.78rem;
+    color: #a9444c;
+    background: #fceef0;
+    border: 1px solid #f0c6cb;
+    border-radius: 12px;
+}
+
+.sas-login-error.is-visible {
+    display: flex;
+}
+
+.sas-login-card .sas-btn {
+    width: 100%;
+    padding: 0.85rem 1rem;
+}
+
+.sas-demo {
+    margin-top: 1.4rem;
+    padding: 0.9rem 1rem;
+    background: #fdf8f0;
+    border: 1px dashed rgba(194, 162, 107, 0.55);
+    border-radius: 14px;
+    font-size: 0.76rem;
+    line-height: 1.65;
+    color: var(--sas-ink-soft);
+}
+
+.sas-demo strong {
+    display: block;
+    margin-bottom: 0.2rem;
+    font-size: 0.65rem;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--sas-gold);
+}
+
+.sas-demo code {
+    font-family: 'Courier New', monospace;
+    font-size: 0.78rem;
+    color: var(--sas-ink);
+}
+
+.sas-login-alt {
+    margin: 1.5rem 0 0;
+    font-size: 0.76rem;
+    text-align: center;
+    color: var(--sas-muted);
+}
+
+.sas-login-alt a {
+    color: var(--sas-rose-dark);
+    text-decoration: none;
+    border-bottom: 1px solid rgba(154, 85, 96, 0.35);
+}
+
+.sas-login-alt a:hover {
+    border-bottom-color: var(--sas-rose-dark);
+}
+
+@media (max-width: 991.98px) {
+    .sas-login-art {
+        display: none;
+    }
+
+    .sas-login-mobile-brand {
+        display: flex;
+    }
+
+    .sas-login-mobile-brand .sas-brand-name {
+        color: var(--sas-ink);
+    }
+
+    .sas-login-mobile-brand .sas-brand-sub {
+        color: var(--sas-muted);
+    }
+}
+
+@media (max-width: 575.98px) {
+    .sas-login-panel {
+        padding: 1.5rem 1rem;
+    }
+
+    .sas-login-card {
+        padding: 1.6rem;
+        border-radius: 22px;
+    }
+
+    .sas-login-card h2 {
+        font-size: 1.7rem;
+    }
+}

@@ -1,0 +1,26 @@
+services:
+  sas:
+    build: .
+    image: sas-wedding-studio:latest
+    container_name: sas-wedding
+    restart: unless-stopped
+    init: true
+    env_file:
+      - .env
+    environment:
+      NODE_ENV: production
+      SAS_DATA_DIR: /app/data
+    # Keep the app behind Nginx/Caddy on the same host.
+    # For a direct/LAN demo, change this to "3000:3000".
+    ports:
+      - "127.0.0.1:3000:3000"
+    volumes:
+      - sas-data:/app/data
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "5"
+
+volumes:
+  sas-data:

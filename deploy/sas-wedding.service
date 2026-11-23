@@ -1,0 +1,41 @@
+# SAS Wedding Studio - systemd service
+#
+# Install:
+#   sudo cp deploy/sas-wedding.service /etc/systemd/system/
+#   sudo systemctl daemon-reload
+#   sudo systemctl enable --now sas-wedding
+#
+# Logs:
+#   sudo journalctl -u sas-wedding -f
+
+[Unit]
+Description=SAS Wedding Studio
+Documentation=file:///var/www/sas/DEPLOYMENT.md
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=sas
+Group=sas
+WorkingDirectory=/var/www/sas
+EnvironmentFile=/var/www/sas/.env
+ExecStart=/usr/bin/node server/index.js
+Restart=always
+RestartSec=5
+KillSignal=SIGINT
+TimeoutStopSec=15
+
+# Hardening: the app only needs to write inside data/.
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=full
+ProtectHome=true
+ReadWritePaths=/var/www/sas/data
+LimitNOFILE=65535
+
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

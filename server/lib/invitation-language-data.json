@@ -1,0 +1,117 @@
+{
+    "fields": {
+        "meta": [
+            "title",
+            "description"
+        ],
+        "meta.music": [
+            "title"
+        ],
+        "hero": [
+            "eyebrow",
+            "headline",
+            "dateLabel",
+            "location"
+        ],
+        "quote": [
+            "text",
+            "source"
+        ],
+        "couple.bride": [
+            "role",
+            "childOrder",
+            "father",
+            "mother",
+            "bio"
+        ],
+        "couple.groom": [
+            "role",
+            "childOrder",
+            "father",
+            "mother",
+            "bio"
+        ],
+        "events": [
+            "type",
+            "title",
+            "venue",
+            "address",
+            "note"
+        ],
+        "story": [
+            "date",
+            "title",
+            "text"
+        ],
+        "gallery": [
+            "caption"
+        ],
+        "gifts": [
+            "type",
+            "provider",
+            "note"
+        ],
+        "rsvp": [
+            "title",
+            "message"
+        ],
+        "dressCode": [
+            "title",
+            "text"
+        ],
+        "closing": [
+            "text",
+            "signature"
+        ]
+    },
+    "frenchCopy": {
+        "With joy, we invite you to celebrate the wedding of Rashel and Adrian on Saturday, 12 June 2027 in Ubud, Bali.": "C’est avec joie que nous vous invitons à célébrer le mariage de Rashel et Adrian le samedi 12 juin 2027 à Ubud, à Bali.",
+        "The Wedding Of": "Le mariage de",
+        "Saturday, 12 June 2027": "Samedi 12 juin 2027",
+        "The Amara Estate, Ubud - Bali": "Domaine Amara, Ubud, Bali",
+        "And of His signs is that He created for you mates from among yourselves, that you may find tranquillity in them; and He placed between you affection and mercy.": "Et parmi Ses signes, Il a créé pour vous des conjoints issus de vous-mêmes afin que vous trouviez auprès d’eux la sérénité, et Il a mis entre vous affection et miséricorde.",
+        "The Bride": "La mariée",
+        "The Groom": "Le marié",
+        "The first daughter of": "Fille aînée de",
+        "The first of": "L’aînée de",
+        "The second son of": "Second fils de",
+        "The son of": "Fils de",
+        "Architect, plant collector, and the calmest person in every room. Rashel loves slow mornings, rainy playlists and the ocean at dusk.": "Architecte et collectionneuse de plantes, Rashel garde son calme en toutes circonstances. Elle aime les matins tranquilles, les playlists des jours de pluie et l’océan au crépuscule.",
+        "Product designer, weekend barista, and the one who always plans the next trip. Adrian proposed on a hill in Ubud, right before sunrise.": "Designer de produits et barista le week-end, Adrian prépare toujours le prochain voyage. Il a fait sa demande en mariage sur une colline à Ubud, juste avant le lever du soleil.",
+        "Ceremony": "Cérémonie",
+        "Holy Matrimony": "Cérémonie de mariage",
+        "The Amara Chapel": "Chapelle Amara",
+        "Please arrive 20 minutes before the ceremony begins.": "Merci d’arriver 20 minutes avant le début de la cérémonie.",
+        "Reception": "Réception",
+        "Dinner & Celebration": "Dîner et fête",
+        "The Amara Garden": "Jardin Amara",
+        "Garden formal attire. Dinner is served at 19:00.": "Tenue de jardin élégante. Le dîner sera servi à 19 h.",
+        "August 2019": "Août 2019",
+        "A rainy first meeting": "Une première rencontre sous la pluie",
+        "We met at a tiny coffee shop in Bandung, both hiding from the rain. Adrian asked to borrow a chair, and stayed to talk until closing time.": "Nous nous sommes rencontrés dans un petit café de Bandung, où nous nous étions tous les deux réfugiés pour échapper à la pluie. Adrian a demandé s’il pouvait prendre une chaise, puis nous avons discuté jusqu’à la fermeture.",
+        "March 2021": "Mars 2021",
+        "Our first trip together": "Notre premier voyage ensemble",
+        "Three days in Yogyakarta with one camera, two backpacks and a long list of places we never actually visited.": "Trois jours à Yogyakarta, avec un appareil photo, deux sacs à dos et une longue liste d’endroits que nous n’avons finalement jamais visités.",
+        "September 2025": "Septembre 2025",
+        "The proposal": "La demande en mariage",
+        "On a hill above Ubud, just before sunrise, Adrian asked the easiest question of his life. Rashel said yes before he finished the sentence.": "Sur une colline qui surplombe Ubud, juste avant le lever du soleil, Adrian a posé la question la plus facile de sa vie. Rashel lui a dit oui avant qu’il ne termine sa phrase.",
+        "June 2027": "Juin 2027",
+        "Forever begins": "Le début de notre vie à deux",
+        "And now we are here, inviting the people we love most to celebrate the beginning of our forever.": "Et nous y voilà, invitant les personnes qui nous sont les plus chères à fêter le début de notre vie à deux.",
+        "The garden ceremony": "La cérémonie dans le jardin",
+        "Two rings, one promise": "Deux alliances, une promesse",
+        "Dinner under the lights": "Un dîner sous les lumières",
+        "Save the date": "Réservez la date",
+        "Bank Transfer": "Virement bancaire",
+        "Please use your name as the transfer note.": "Merci d’indiquer votre nom dans le libellé du virement.",
+        "Thank you for your love and generosity.": "Merci pour votre affection et votre générosité.",
+        "Wedding Gift": "Cadeau de mariage",
+        "Send a gift": "Envoyer un cadeau",
+        "Gifts can be delivered to our home address.": "Les cadeaux peuvent être livrés à notre domicile.",
+        "Will you celebrate with us?": "Serez-vous de la fête ?",
+        "Please confirm your attendance before 20 May 2027 so we can prepare your seat.": "Merci de confirmer votre présence avant le 20 mai 2027 pour que nous puissions vous réserver une place.",
+        "Garden Formal": "Tenue de jardin élégante",
+        "Soft tones and comfortable shoes are recommended - the celebration is outdoors on grass.": "Nous vous conseillons des tons doux et des chaussures confortables : la fête se déroulera en plein air, sur une pelouse.",
+        "It would be an honour to have you with us on our special day. Thank you for your love, prayers and support.": "Votre présence à nos côtés en ce jour si spécial serait un honneur. Merci pour votre affection, vos prières et votre soutien."
+    }
+}

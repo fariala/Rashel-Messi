@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title data-i18n="Page not found | SAS Wedding Studio">Page not found | SAS Wedding Studio</title>
+    <meta name="robots" content="noindex, nofollow">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Josefin+Sans:wght@300;400;500;600&display=swap">
+    <link rel="stylesheet" href="/css/saas.css">
+    <script defer src="/dist/saas-auth.js"></script>
+    <style>
+        .not-found {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .not-found h1 {
+            margin: 0 0 0.5rem;
+            font-size: clamp(2.4rem, 6vw, 3.4rem);
+        }
+
+        .not-found p {
+            max-width: 26rem;
+            margin: 0 0 1.5rem;
+            color: var(--sas-muted);
+        }
+
+        .not-found .language-switch {
+            margin-bottom: 1.5rem;
+        }
+
+        .not-found-actions {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 0.5rem;
+        }
+    </style>
+</head>
+
+<body class="sas-body">
+    <main class="not-found">
+        <select class="language-switch" data-language-select aria-label="Language" data-i18n-aria-label="Language">
+            <option value="en" lang="en">English</option>
+            <option value="fr" lang="fr">Français</option>
+        </select>
+        <p class="sas-eyebrow">SAS Wedding Studio</p>
+        <h1 data-i18n="This page has wandered off">This page has wandered off</h1>
+        <p data-i18n="The page you were looking for does not exist. The invitation, however, is right where it should be.">The page you were looking for does not exist. The invitation, however, is right where it should be.</p>
+        <div class="not-found-actions">
+            <a class="sas-btn sas-btn-primary" href="/invite.html"><i class="fa-solid fa-envelope-open-text" aria-hidden="true"></i> <span data-i18n="Open invitation">Open invitation</span></a>
+            <a class="sas-btn sas-btn-outline" href="/login.html"><i class="fa-solid fa-arrow-right-to-bracket" aria-hidden="true"></i> <span data-i18n="Admin sign in">Admin sign in</span></a>
+        </div>
+    </main>
+</body>
+
+</html>

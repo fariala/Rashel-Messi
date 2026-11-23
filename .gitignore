@@ -1,0 +1,12 @@
+CODE_OF_CONDUCT.md
+SECURITY.md
+node_modules
+dist
+public
+data
+.screenshots
+*.log
+tmp-verify.js
+tmp-check.js
+.env
+backups/
